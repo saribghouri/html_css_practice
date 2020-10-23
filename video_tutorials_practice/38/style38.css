@@ -1,0 +1,12 @@
+.box{
+    width:1500px;
+  height: 250px;
+  background-color:hotpink;
+  box-sizing:border-box;
+  margin:auto;
+}
+@media screen and (min-width:900px){
+    .box{
+        background:red;
+    }
+}

@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100vh;
+    background: radial-gradient( pink 20%,skyblue 40%, red 10%);
+}

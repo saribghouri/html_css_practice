@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 500px;
+    margin: 5px auto 5px auto;
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+    top: 50px; right: 40px;
+} 
+
+.namespan{
+
+}
+    

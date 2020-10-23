@@ -1,0 +1,106 @@
+/*
+====================
+global styles
+====================
+*/
+
+*{
+    margin:0;
+    padding: border-box;
+  
+  }
+  
+  body{
+      font-family: 'dosis', sans-serif;
+  }
+  h1{
+      font-size: 3em;
+  }
+ h2{
+     font-size: 2em;
+ }
+ h3{
+     font-size: 1.5em;
+ }
+
+  /*
+  ===============
+  hero section
+  ===============
+  */
+
+  .hero{
+      background: linear-gradient(to bottom right,#2196f3, #009688);
+      height:100vh;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+  }
+  .menu{
+      width: 100%;
+      background: yellow;
+      height: 40px;
+  }
+  .menu ul{
+      text-align:center;
+  }
+  .menu ul li{
+      list-style: none;
+      display: inline;
+  }
+  .menu ul li a{
+      text-decoration: none;
+     display: inline-block;
+     line-height: 40px;
+     padding:0px 15px 0px 15px;
+  }
+  
+  /*
+  ===============
+  services section
+  ===============
+  */
+  .services{
+      width: 100%;
+      background-color:hsl(0,0%, 95%);
+      padding-top: 100%;
+      padding-bottom: 100%px;
+      text-align:center;
+  }
+  .col-wrapper{
+      width: 90%;
+      margin:auto;
+      padding-top:50px;
+
+  }
+.services-col{
+ width: 33.33%;
+ float: left;
+ padding:10px 30px 10px 30px;
+
+}
+.services-col img{
+    width: 80px;
+    max-width: 100%;
+}
+
+.col-wrapper::after{
+    clear: both;
+    display:table;
+    content: "";
+
+}
+
+/*
+==========================
+about us section
+==========================
+*/
+.aboutus{
+    padding:top 100px;
+    padding-bottom:100px;
+    text-align: center;
+    background-image:url(img/image.jfif);
+}

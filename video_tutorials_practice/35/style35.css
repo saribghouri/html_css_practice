@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.box{
+    width: 600px;
+    height: 500px;
+    background:pink;
+    display: flex;
+    margin: auto;
+     flex-wrap: wrap;
+     align-content: center;
+}
+.child{
+    
+    padding: 15px;
+    height:50px;
+    width:25%;
+    text-align: center;
+    background:skyblue;
+    color:red;
+    border:1px solid blue;
+    flex:1;
+}
+.child:nth-child(4){
+    flex:3;
+}
+.child:nth-child(5){
+    flex:4;
+}

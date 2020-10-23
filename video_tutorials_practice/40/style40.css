@@ -1,0 +1,15 @@
+/*
+====================
+global styles
+====================
+*/
+
+*{
+  margin:0;
+  padding: border-box;
+
+}
+
+body{
+    font-family: 'dosis', sans-serif;
+}

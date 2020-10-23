@@ -1,0 +1,11 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background:pink;
+    box-sizing:border-box;
+    margin: 100px auto 0px auto;
+}
+.box:hover{
+    transform:skew(40deg);
+    transition: transform ease 0.7s;
+}
